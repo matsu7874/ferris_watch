@@ -1,0 +1,15 @@
+[package]
+name = "ferris_watch"
+version = "0.1.0"
+authors = ["matsu7874 <mtsmtkmt@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.8"
+env_logger = "0.7.1"
+failure = "0.1.7"
+signal-hook = "0.1.13"
+clap = "2.33.0"
+pancurses = "0.16.1"
